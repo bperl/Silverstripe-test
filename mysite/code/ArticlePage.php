@@ -9,6 +9,8 @@ use Page;
 
 class ArticlePage extends Page
 {
+  private static $table_name = 'ArticlePage';
+
   private static $can_be_root = false;
 
   private static $db = [
